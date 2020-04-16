@@ -45,5 +45,5 @@ Playback level: -18dB / -12dB / -9dB / -6dB / -3dB / 0dB / +3dB / +6dB
 ## Requirements
 
 - Cycling '74 Max 8  
-- macOS 10.13.6 or higher
-
+- macOS 10.13.6 or higher  
+- Monome Grid (recommended 40h)
