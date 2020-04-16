@@ -6,7 +6,7 @@
 
 Versos is a multi-track looper / sampler designed to work with Monome Grid (more specifically the 64). It contains 6 standard tracks that can be used for recording external signals, a resampling track (#7) and a global track (#8).
 
-All tracks use Monome's softcut engine ([the MaxMSP port by Andew Shike](https://github.com/AndrewShike/softcut-msp)) for recording and playback. 
+All tracks use Monome's softcut engine ([the MaxMSP port by Andew Shike](https://github.com/AndrewShike/softcut-msp)) for recording and playback.  
 
 Each track has a 32-second buffer (which can be exported as a wave file) and independent controls for transport, playback level, overdub level, loop state, rate and quantizer state.
 
@@ -14,6 +14,8 @@ Track #7 ("♺") can be used for resampling the output of tracks 1-6.
 Track #8 ("ALL") can be used for controling tracks 1-7 simultaniouly.  
 
 Recording and playback messages can be quantized to a BPM (on quarter notes) to make it easy to sync multiple tracks. 
+
+Looping can also be disabled so tracks can be used a one-shot samplers.
 
 ## Controls
 
