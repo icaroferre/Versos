@@ -27,16 +27,23 @@ Playback level: -18dB / -12dB / -9dB / -6dB / -3dB / 0dB / +3dB / +6dB
 
 ## How to Use
 
-1 - Select the appropriate audio input / output devices, input channel and click on the speaker icon to enable audio processing.
+1 - Open the Versos.maxproj file
 
-2 - Select the track you'd like to record to.
+2 - Select the appropriate audio input / output devices, input channel and click on the speaker icon to enable audio processing.
 
-3 - Check the Input Gain meter and the meter of the selected track to make sure that signal is getting to the track.
+3 - Select the track you'd like to record to.
 
-4 - Press the bottom-left button on the Grid to start recording, press it again to stop recording (do not press play or stop while its recording). 
+4 - Check the Input Gain meter and the meter of the selected track to make sure that signal is getting to the track.
 
-5 - After you've recorded the base loop of the selected track, the Clear button will light up. You can press record again to start overdubbing or press clear to delete the base loop.
+5 - Press the bottom-left button on the Grid to start recording, press it again to stop recording (do not press play or stop while its recording). 
 
-6 - Clicking on a different position button will jump the playback position to the selected section
+6 - After you've recorded the base loop of the selected track, the Clear button will light up. You can press record again to start overdubbing or press clear to delete the base loop.
 
+7 - Clicking on a different position button will jump the playback position to the selected section
+
+
+## Requirements
+
+- Cycling '74 Max 8  
+- macOS 10.13.6 or higher
 
