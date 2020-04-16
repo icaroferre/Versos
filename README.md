@@ -21,9 +21,9 @@ Recording and playback messages can be quantized to a BPM (on quarter notes) to 
 
 Additional information:
 
-Input level: -18dB / -12dB / -9dB / -6dB / -3dB / 0dB / +3dB / +6dB
-Rate: -2x / -1x / -0.5x / 0.5x / 1x / 1.5x / 2x / 4x
-Playback level: -18dB / -12dB / -9dB / -6dB / -3dB / 0dB / +3dB / +6dB
+Input level: -18dB / -12dB / -9dB / -6dB / -3dB / 0dB / +3dB / +6dB  
+Rate: -2x / -1x / -0.5x / 0.5x / 1x / 1.5x / 2x / 4x  
+Playback level: -18dB / -12dB / -9dB / -6dB / -3dB / 0dB / +3dB / +6dB  
 
 ## How to Use
 
