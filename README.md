@@ -29,7 +29,7 @@ Playback level: -18dB / -12dB / -9dB / -6dB / -3dB / 0dB / +3dB / +6dB
 
 ## How to Use
 
-1 - Open the Versos.maxproj file
+1 - Open the Versos.mxf file
 
 2 - Select the appropriate audio input / output devices, input channel and click on the speaker icon to enable audio processing.
 

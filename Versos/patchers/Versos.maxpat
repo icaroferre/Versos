@@ -228,7 +228,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-49",
-					"items" : [ "None", ",", "Built-in Output", ",", "HDMI", ",", "iConnectAUDIO4+", ",", "iConnectMIDI4+", ",", "BlackHole", ",", "Universal Audio Apollo", ",", "STUDIO" ],
+					"items" : [ "None", ",", "Built-in Output", ",", "HDMI", ",", "Scarlett 6i6 USB", ",", "BlackHole", ",", "Universal Audio Apollo", ",", "STUDIO" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -269,7 +269,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-45",
-					"items" : [ "None", ",", "Built-in Microphone", ",", "iConnectAUDIO4+", ",", "iConnectMIDI4+", ",", "BlackHole", ",", "Universal Audio Apollo", ",", "iPhone monitoring", ",", "STUDIO" ],
+					"items" : [ "None", ",", "Built-in Microphone", ",", "Scarlett 6i6 USB", ",", "BlackHole", ",", "Universal Audio Apollo", ",", "iPhone monitoring", ",", "STUDIO" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1372,7 +1372,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1100.0, 189.0, 640.0, 480.0 ],
+						"rect" : [ 766.0, 189.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1399,7 +1399,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-6",
@@ -1808,13 +1807,13 @@
 					"presentation_rect" : [ 484.5, 200.0, 48.0, 213.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "Input Gain",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_linknames" : 1,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "Input Gain"
+							"parameter_longname" : "Input Gain",
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -1851,13 +1850,13 @@
 					"presentation_rect" : [ 564.5, 200.0, 48.0, 213.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "Master",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_linknames" : 1,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "Master"
+							"parameter_longname" : "Master",
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -2780,12 +2779,12 @@
 					"rounded" : 7.0,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 7,
 							"parameter_shortname" : "live.tab",
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "♺", "ALL" ],
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.tab"
+							"parameter_longname" : "live.tab",
+							"parameter_mmax" : 7
 						}
 
 					}
@@ -3739,30 +3738,70 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-16::obj-32" : [ "Export[2]", "Export", 0 ],
-			"obj-1::obj-22" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-37::obj-22" : [ "Gain[1]", "Gain", 0 ],
-			"obj-34" : [ "Input Gain", "Input Gain", 0 ],
-			"obj-19::obj-32" : [ "Export[6]", "Export", 0 ],
-			"obj-15::obj-22" : [ "Gain[2]", "Gain", 0 ],
-			"obj-36::obj-22" : [ "Gain", "Gain", 0 ],
-			"obj-37::obj-32" : [ "Export[5]", "Export", 0 ],
-			"obj-19::obj-22" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-15::obj-32" : [ "Export[1]", "Export", 0 ],
-			"obj-1::obj-32" : [ "Export", "Export", 0 ],
-			"obj-36::obj-32" : [ "Export[4]", "Export", 0 ],
-			"obj-26" : [ "live.tab", "live.tab", 0 ],
-			"obj-29" : [ "Master", "Master", 0 ],
 			"obj-18::obj-22" : [ "Gain[4]", "Gain", 0 ],
 			"obj-16::obj-22" : [ "Gain[3]", "Gain", 0 ],
+			"obj-15::obj-32" : [ "Export[1]", "Export", 0 ],
+			"obj-26" : [ "live.tab", "live.tab", 0 ],
+			"obj-19::obj-32" : [ "Export[6]", "Export", 0 ],
+			"obj-37::obj-32" : [ "Export[5]", "Export", 0 ],
+			"obj-36::obj-22" : [ "Gain", "Gain", 0 ],
+			"obj-29" : [ "Master", "Master", 0 ],
 			"obj-18::obj-32" : [ "Export[3]", "Export", 0 ],
+			"obj-16::obj-32" : [ "Export[2]", "Export", 0 ],
+			"obj-15::obj-22" : [ "Gain[2]", "Gain", 0 ],
+			"obj-34" : [ "Input Gain", "Input Gain", 0 ],
+			"obj-19::obj-22" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-1::obj-22" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-37::obj-22" : [ "Gain[1]", "Gain", 0 ],
+			"obj-1::obj-32" : [ "Export", "Export", 0 ],
+			"obj-36::obj-32" : [ "Export[4]", "Export", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-18::obj-22" : 				{
+					"parameter_longname" : "Gain[4]",
+					"parameter_shortname" : "Gain"
+				}
+,
+				"obj-16::obj-22" : 				{
+					"parameter_longname" : "Gain[3]",
+					"parameter_shortname" : "Gain"
+				}
+,
+				"obj-15::obj-32" : 				{
+					"parameter_longname" : "Export[1]"
+				}
+,
+				"obj-19::obj-32" : 				{
+					"parameter_longname" : "Export[6]"
+				}
+,
+				"obj-37::obj-32" : 				{
+					"parameter_longname" : "Export[5]"
+				}
+,
+				"obj-36::obj-22" : 				{
+					"parameter_shortname" : "Gain"
+				}
+,
+				"obj-18::obj-32" : 				{
+					"parameter_longname" : "Export[3]"
+				}
+,
 				"obj-16::obj-32" : 				{
 					"parameter_longname" : "Export[2]"
+				}
+,
+				"obj-15::obj-22" : 				{
+					"parameter_longname" : "Gain[2]",
+					"parameter_shortname" : "Gain"
+				}
+,
+				"obj-19::obj-22" : 				{
+					"parameter_longname" : "live.gain~",
+					"parameter_shortname" : "live.gain~"
 				}
 ,
 				"obj-1::obj-22" : 				{
@@ -3775,48 +3814,8 @@
 					"parameter_shortname" : "Gain"
 				}
 ,
-				"obj-19::obj-32" : 				{
-					"parameter_longname" : "Export[6]"
-				}
-,
-				"obj-15::obj-22" : 				{
-					"parameter_longname" : "Gain[2]",
-					"parameter_shortname" : "Gain"
-				}
-,
-				"obj-36::obj-22" : 				{
-					"parameter_shortname" : "Gain"
-				}
-,
-				"obj-37::obj-32" : 				{
-					"parameter_longname" : "Export[5]"
-				}
-,
-				"obj-19::obj-22" : 				{
-					"parameter_longname" : "live.gain~",
-					"parameter_shortname" : "live.gain~"
-				}
-,
-				"obj-15::obj-32" : 				{
-					"parameter_longname" : "Export[1]"
-				}
-,
 				"obj-36::obj-32" : 				{
 					"parameter_longname" : "Export[4]"
-				}
-,
-				"obj-18::obj-22" : 				{
-					"parameter_longname" : "Gain[4]",
-					"parameter_shortname" : "Gain"
-				}
-,
-				"obj-16::obj-22" : 				{
-					"parameter_longname" : "Gain[3]",
-					"parameter_shortname" : "Gain"
-				}
-,
-				"obj-18::obj-32" : 				{
-					"parameter_longname" : "Export[3]"
 				}
 
 			}
